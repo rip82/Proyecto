@@ -1,6 +1,6 @@
 package com.orgrup.modelo;
 
-public class Usuario {
+public class Usuario{
 
 	private String correo;
 	private String nombre;
