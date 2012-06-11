@@ -1,7 +1,5 @@
 package com.orgrup.modelo;
 
-
-
 public class Usuario {
 
 	private String correo;
@@ -10,12 +8,35 @@ public class Usuario {
 	private Usuario usuario;
 	
 	public String getCorreo(){
-		
 		return correo;
 	}
 
-	public void setCorreo(){
+	public void setCorreo(String correo){
 		this.correo = correo;
 	}
 	
+	public String getNombre(){
+		
+		return nombre;
+	}
+	
+	public void getNombre(String nombre){
+		this.nombre = nombre;
+	}
+	
+	public String getPass(){
+		return pass;
+	}
+	
+	public void setPass(String pass){
+		this.pass = pass;
+	}
+	
+	public void agregarContacto(){
+		
+	}
+	
+	public void eliminarContacto(){
+		
+	}
 }
