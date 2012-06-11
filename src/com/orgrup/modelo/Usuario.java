@@ -20,7 +20,7 @@ public class Usuario{
 		return nombre;
 	}
 	
-	public void getNombre(String nombre){
+	public void setNombre(String nombre){
 		this.nombre = nombre;
 	}
 	
@@ -32,6 +32,7 @@ public class Usuario{
 		this.pass = pass;
 	}
 	
+		
 	public void agregarContacto(){
 		
 	}
@@ -39,4 +40,25 @@ public class Usuario{
 	public void eliminarContacto(){
 		
 	}
+	
+	public void crearGrupo(){
+		
+	}
+	
+	public void abandonarGrupo(){
+		
+	}
+	
+	public void crearTarea(){
+		
+	}
+	
+	public void eliminarTarea(){
+		
+	}
+	
+	public void editarTarea(){
+		
+	}
+	
 }
