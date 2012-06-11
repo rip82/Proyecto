@@ -8,12 +8,12 @@ public class Reunion {
 	private String comentario;
 	private Documento documento;
 	
-	public Integer getId(){
-		return id;
+	public String getFecha(){
+		return fecha;
 	}
 
-	public void setId(Integer id){
-		this.id = id;
+	public void setFecha(String fecha){
+		this.fecha = fecha;
 	}
 	
 	public String getNombre(){
@@ -25,28 +25,27 @@ public class Reunion {
 		this.nombre = nombre;
 	}
 	
-	public String getDistintivo(){
-		return distintivo;
+	public String getDescripcion(){
+		return descripcion;
 	}
 	
-	public void setDistintivo(String distintivo){
-		this.distintivo = distintivo;
+	public void setDescripcion(String descripcion){
+		this.descripcion = descripcion;
 	}
 	
-	public void agregarReunion(){
+	public String getComentario(){
+		return descripcion;
+	}
+	
+	public void setComentario(String descripcion){
+		this.descripcion = descripcion;
+	}
+	public void agregarDocumento(){
 		
 	}
 	
-	public void eliminarReunion(){
+	public void eliminarDocumento(){
 		
 	}
-	
-	public void editarReunion(){
 		
-	}
-	
-	public void getReunion(){
-		
-	}
-	
 }
